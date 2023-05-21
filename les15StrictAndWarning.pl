@@ -1,3 +1,3 @@
 use warnings;
 
-my $string = "Phucdo";
+# my $string = "Phucdo";
