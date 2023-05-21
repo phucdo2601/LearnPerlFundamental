@@ -17,3 +17,5 @@ $reference_array = \@array;
 # at $reference_array by prefixing
 # @ as it is a array reference
 print @$reference_array;   
+
+@array = ('1', '2', '3');
