@@ -1,0 +1,6 @@
+% layout 'templatePage01';
+% title 'Welcome';
+<h2><%= $msg %></h2>
+<p>
+  Test List
+</p>
