@@ -15,6 +15,14 @@ my $dbInfoHashRef = \%dbInfoHash;
 sub connectDb {
     my ($username, $password, $dbName) = @_;
     my $dbh = DBI->connect("DBI:mysql:$$dbName", $$username, $$password) or die "Couldn't connect database!";
+#     my $dbh = DBI->connect(
+#     driver   => 'DBI',
+#     dbname   => $$dbName,
+#     host     => '3306',
+#     user     => $$username,
+#     password => $$password
+# );
+    
     return $dbh;
 }
 
